@@ -46,3 +46,5 @@ create table comment
     updated_by varchar(255)
 );
 
+ALTER SEQUENCE app_user_id_seq restart WITH 3;
+ALTER SEQUENCE authority_id_seq restart WITH 4;
